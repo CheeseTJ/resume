@@ -1,0 +1,45 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top:0;
+  z-index: 10000000;
+  pointer-events: none;
+  .btn{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    pointer-events: all;
+  }
+  .btn.back{
+    &>*{
+      transform: scale(3);
+    }
+  }
+  ul{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: white;
+    transform: scale(0) translate(-100px, -100px);
+    transition: all .5s;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    transform-origin: top right;
+    list-style-type: none;
+    pointer-events: all;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    li{
+      padding: 5px;
+    }
+    &.active{
+      transform: scale(1) translate(0px, 0px);
+    }
+  }
+}

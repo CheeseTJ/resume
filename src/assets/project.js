@@ -1,0 +1,116 @@
+import BbtImg from './imgs/bbt.png'
+export const techs = ['Uniapp','Vue3','UniappX','React','TS','echarts','原生']
+export default [{
+    url:'11',
+    name:'蓝荞桔子防水',
+    desc:'一款基于UniappX的原生APP,主要负责家居建材供应链以及工人师傅相关。',
+    tags:['APP'],
+    blips:['拨号','定位'],
+    techs:['UniappX','TS'],
+    order:0
+},{
+    url:'https://www.oceanhoarder.com/',
+    name:'海囤客',
+    desc:'',
+    tags:['小程序','后台','Web'],
+    blips:['多语言','echarts'],
+    techs:['Vue2','Uniapp'],
+    order:0
+},{
+    url:BbtImg,
+    name:'抱报团',
+    desc:'',
+    tags:['小程序'],
+    blips:[],
+    techs:['Uniapp'],
+    order:0
+},{
+    url:'https://www.welllinkio.com/',
+    name:'德克维尔',
+    desc:'德克维尔是一家集技术研发、生产和销售及服务为一体的国家高新技术企业。公司致力于提供以I/O模块为核心的工业总线解决方案。',
+    tags:['Web'],
+    blips:['多语言','自适应'],
+    techs:['原生'],
+    order:0
+},{
+    url:'http://www.pkgtracking.com/',
+    name:'国际物流查询',
+    desc:'',
+    tags:['web'],
+    blips:['多语言','自适应'],
+    techs:['React'],
+    order:0
+},{
+    url:'',
+    name:'横岗预约系统',
+    desc:'',
+    tags:['后台','小程序'],
+    blips:['数据加密'],
+    techs:['Vue2','Uniapp'],
+    order:0
+},{
+    url:'花生房车',
+    name:'花生房车',
+    desc:'',
+    tags:['web','小程序','后台'],
+    blips:[''],
+    techs:['Vue2','Uniapp'],
+    order:0
+},{
+    url:'',
+    name:'聚电出行',
+    desc:'',
+    tags:['小程序','后台'],
+    blips:['考试'],
+    techs:['Vue2','Uniapp','echarts'],
+    order:0
+},{
+    url:'',
+    name:'俊网云',
+    desc:'',
+    tags:['小程序'],
+    blips:['多语言'],
+    techs:['Uniapp'],
+    order:0
+},{
+    url:'',
+    name:'沙特商城系统',
+    desc:'',
+    tags:['Web','APP'],
+    blips:['国际化','自适应','混入动态多语言','反向'],
+    techs:['Uniapp','原生',],
+    order:0
+},{
+    url:'',
+    name:'深圳报业订阅',
+    desc:'',
+    tags:['小程序'],
+    blips:[],
+    techs:['Uniapp'],
+    order:0
+},{
+    url:'https://wbshop.kalexing.com/',
+    name:'正德友邦',
+    desc:'',
+    tags:['H5','Web'],
+    blips:['即时通讯','APP内嵌','自适应','录音','选取图片'],
+    techs:['Uniapp','Vue3','TS'],
+    order:0
+},{
+    url:'',
+    name:'爱护法',
+    desc:'',
+    tags:['Web'],
+    blips:['excel批量导入,导出'],
+    techs:['Vue3',"TS"],
+    order:0
+},{
+    url:'',
+    name:'赖茅',
+    desc:'',
+    tags:['小程序'],
+    blips:['自定义拍照','分享海报'],
+    techs:['Uniapp'],
+    order:0
+//     单页面
+}]
