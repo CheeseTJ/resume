@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "resume",
+  "account_id": "1b53bebb48213cfdf6e43cd71d931741",
+  "compatibility_date": "2026-06-01",
+  // Worker 名必须与 `name` 一致，否则 CF 侧构建会失败
+  "assets": {
+    "directory": "dist",
+    // history 路由需要回退到 index.html
+    "not_found_handling": "single-page-application"
+  },
+  // 关掉 workers.dev，只走自定义域（绑定时 wrangler 自动建 AAAA 100:: 占位）
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "resume.taojun.top", "custom_domain": true }
+  ]
+}
